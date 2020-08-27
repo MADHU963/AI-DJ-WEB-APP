@@ -50,7 +50,7 @@ function gotPoses(results)
 }
 
 function draw() {
-	image(video, 0, 0, 600, 500);
+	image(video, 0, 0, weight, height);
 
 	fill("#FF0000");
 	stroke("#FF0000");

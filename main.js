@@ -2,7 +2,7 @@ song = "";
 
 function preload()
 {
-	song = loadSound("");
+	song = loadSound("music.mp3");
 }
 
 scoreRightWrist = 0;
